@@ -1,6 +1,6 @@
 # Task
 
-This project is a tes task for Bits Orchestra
+This project is a test task for Bits Orchestra
 
 ## Install instructions
 
