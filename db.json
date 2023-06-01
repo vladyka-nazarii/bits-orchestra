@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "isbn": 9780590353403,
+      "created": 907189200000,
+      "modified": null,
+      "active": true
+    },
+    {
+      "id": 1685627419664,
+      "title": "kiuikiuykiyu",
+      "author": "0000",
+      "category": "Novel",
+      "isbn": 1000000000000,
+      "created": 1685627419664,
+      "modified": 1685627592017,
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  width: 100px;
+}
+
+.input {
+  width: 200px;
+}

@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #101e41;
+  padding: 10px 20px;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+}

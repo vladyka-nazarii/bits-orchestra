@@ -1,0 +1,14 @@
+.label {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  width: 150px;
+}
+
+@media (max-width: 500px) {
+  .label {
+    flex-direction: column;
+  }
+}
