@@ -36,15 +36,16 @@ export const BooksLayout = memo(({ filteredBooks }: IBooksLayoutProps) => {
     await refetchBooks();
   };
 
-  const handleDeactivate = (id: number, active: boolean) => {
-    deactivateBook(id, active).then(() => refetchBooks());
+  const handleDeactivate = async (id: number, active: boolean) => {
+    await deactivateBook(id, active);
+    await refetchBooks();
   };
 
   return (
     <div className={styles.container}>
       <div className={styles.filter}>
         <CustomSelect options={FILTER_OPTIONS} value={`${filter}`} onChange={handleSelectChange} />
-        <h3 style={{ display: 'inline' }}>
+        <h3>
           Show {filteredBooks.length} of {books.length}
         </h3>
       </div>

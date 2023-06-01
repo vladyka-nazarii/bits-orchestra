@@ -1,4 +1,5 @@
 import { useContext, useState } from 'react';
+
 import { CATEGORY_OPTIONS } from '../../utils/constants';
 import { CustomSelect } from '../CustomSelect/CustomSelect';
 import { CustomLabel } from '../CustomLabel/CustomLabel';
@@ -6,10 +7,10 @@ import { CustomInput } from '../CustomInput/CustomInput';
 import { BookContext } from '../../context/BooksContext';
 import { IBook } from '../../types/interfaces';
 import { updateBook } from '../../api/updateBook';
-
-import styles from './EditForm.module.scss';
 import { addBook } from '../../api/addBook';
 import { Loader } from '../UI/Loader/Loader';
+
+import styles from './EditForm.module.scss';
 
 export const EditForm = () => {
   const { books, refetchBooks, selectedBook, isLoading, setIsLoading, goToMain } =

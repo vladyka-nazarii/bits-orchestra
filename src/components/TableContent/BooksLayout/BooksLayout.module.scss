@@ -9,6 +9,7 @@
 
   .table {
     border-collapse: collapse;
+    margin: 0 auto;
   }
 
   th,
@@ -48,8 +49,7 @@
 
 .tableContainer {
   display: flex;
-  justify-content: center;
-  width: 95vw;
+  width: 95%;
   overflow: auto;
 }
 
