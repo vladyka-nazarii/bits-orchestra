@@ -1,14 +1,3 @@
 import styles from './Loader.module.scss';
 
-export const Loader = () => (
-  <div className={styles.ldsRoller}>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-);
+export const Loader = () => <img className={styles.loader} src='./loader.svg' alt='Loading...' />;

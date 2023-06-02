@@ -19,25 +19,15 @@ interface IBooksContext {
 
 const initialBooksContext: IBooksContext = {
   books: [],
-  refetchBooks: async () => {
-    //
-  },
+  refetchBooks: async () => {},
   filter: true,
-  setFilter: () => {
-    //
-  },
+  setFilter: () => {},
   selectedBook: null,
-  setSelectedBook: () => {
-    //
-  },
+  setSelectedBook: () => {},
   isLoading: false,
-  setIsLoading: () => {
-    //
-  },
+  setIsLoading: () => {},
   error: null,
-  goToMain: () => {
-    //
-  },
+  goToMain: () => {},
 };
 
 export const BookContext = createContext<IBooksContext>(initialBooksContext);

@@ -13,3 +13,7 @@ export const CATEGORY_OPTIONS: ISelectOption[] = [
   { value: 'Detective', label: 'Detective' },
   { value: 'Tale', label: 'Tale' },
 ];
+
+export const MIN_ISBN = 1000000000000;
+
+export const MAX_ISBN = 9999999999999;

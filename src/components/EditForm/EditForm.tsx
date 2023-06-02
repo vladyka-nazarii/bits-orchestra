@@ -77,7 +77,7 @@ export const EditForm = () => {
           type='number'
         />
       </CustomLabel>
-      <button type='submit'>Submit</button>
+      <button type='submit'>{selectedBook ? 'Edit the Book' : 'Add a Book'}</button>
     </form>
   );
 };
